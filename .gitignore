@@ -78,3 +78,5 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
+### Visual Studio code ### 
+.vscode
