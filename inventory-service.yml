@@ -5,8 +5,6 @@ spring:
   neo4j:
     host: ${SPRING_NEO4J_HOST:52.79.178.91}
     port: ${SPRING_NEO4J_PORT:7474}
-    password: ${SPRING_NEO4J_PASSWORD:handler1}
-    username: ${SPRING_NEO4J_USERNAME:neo4j}
 ---
 spring:
   profiles: development
