@@ -3,7 +3,8 @@ server:
 
 
 turbine:
-  appConfig: catalog-service,account-service,edge-service,inventory-service,order-service,user-service
+  #appConfig: catalog-service,account-service,edge-service,inventory-service,order-service,user-service
+  appConfig: catalog-service
   clusterNameExpression: 'default'
 
 eureka:
