@@ -1,27 +1,10 @@
-info:
-  component: Turbine
-
-PREFIX:
-
-endpoints:
-  restart:
-    enabled: true
-  shutdown:
-    enabled: true
-
 server:
   port: ${PORT:8989}
 
-turbine:
-  aggregator:
-    clusterConfig: demo
-  appConfig: demo
 
-logging:
-  level:
-    root: INFO
-    com.netflix.discovery: 'OFF'
-    # org.springframework.integration: DEBUG
+turbine:
+  appConfig: catalog-service 
+  clusterNameExpression: 'default'
 
 eureka:
   instance:
