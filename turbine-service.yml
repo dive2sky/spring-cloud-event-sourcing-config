@@ -7,10 +7,10 @@ management:
 server:
   port: ${PORT:8989}
 
-
 turbine:
+  aggregator:
+    clusterConfig: ONLINEWEB
   appConfig: catalog-service,account-service,edge-service,inventory-service,order-service,user-service
-  clusterNameExpression: 'default'
 
 eureka:
   instance:
