@@ -12,8 +12,10 @@ endpoints:
 server:
   port: ${PORT:8989}
 
-management:
-  port: 8990
+turbine:
+  aggregator:
+    clusterConfig: demo
+  appConfig: demo
 
 logging:
   level:
